@@ -73,6 +73,7 @@ public class Projectile : MonoBehaviour {
 			Instantiate (bloodImpactPrefabs [Random.Range 
 				(0, bloodImpactPrefabs.Length)], transform.position, 
 				Quaternion.LookRotation (collision.contacts [0].normal));
+			onEnemyHit(collision.gameObject);
 			//Destroy bullet object
 			Destroy(gameObject);
 		}
@@ -139,6 +140,11 @@ public class Projectile : MonoBehaviour {
 			//Destroy bullet object
 			Destroy(gameObject);
 		}
+	}
+
+	public void onEnemyHit(GameObject hit)
+	{
+		hit.GetComponent<Alien>().TakeDamage(20);
 	}
 
 	private IEnumerator DestroyTimer () 

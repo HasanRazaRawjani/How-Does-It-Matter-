@@ -16,18 +16,26 @@ public class Alien : MonoBehaviour
 
     private Animator animator;
     private bool isBiting = false;
+    private bool isDead = false; 
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         navMeshAgent = GetComponent<NavMeshAgent>();
-        playerManager = player.GetComponent<PlayerManager>();
+
+        if (player != null)
+        {
+            playerManager = player.GetComponent<PlayerManager>();
+        }
 
         animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
+        
+        if (isDead) return;
+
         if (player == null)
         {
             Debug.LogError("Alien cannot find a GameObject with the tag 'Player'!");
@@ -49,24 +57,31 @@ public class Alien : MonoBehaviour
         {
             navMeshAgent.isStopped = false;
             navMeshAgent.SetDestination(player.transform.position);
-            isBiting = false; 
+            isBiting = false;
         }
     }
 
     void TriggerBite()
     {
-        if (animator != null)
+        if (animator != null && !isDead)
         {
             animator.SetTrigger("Bite");
             isBiting = true;
-            playerManager.StopMovement();
-            Invoke("triggerPlayerDeath", 2f);   
+            if (playerManager != null)
+            {
+                playerManager.SpawnBlood();
+                playerManager.StopMovement();
+            }
+            Invoke("triggerPlayerDeath", 2f);
         }
     }
 
     void triggerPlayerDeath()
     {
-        playerManager.Die();
+        if (playerManager != null)
+        {
+            playerManager.Die();
+        }
     }
 
     private void OnDrawGizmosSelected()
@@ -75,18 +90,42 @@ public class Alien : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRadius);
     }
 
-    public void Die()
-    {
-        Destroy(gameObject);
-    }
-
     public void TakeDamage(float amount)
     {
+        if (isDead) return; 
+
         health -= amount;
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
         }
     }
 
+    public void Die()
+    {
+        isDead = true;
+
+       
+        if (navMeshAgent != null)
+        {
+            navMeshAgent.isStopped = true;
+            navMeshAgent.enabled = false;
+        }
+
+        
+        Collider alienCollider = GetComponent<Collider>();
+        if (alienCollider != null)
+        {
+            alienCollider.enabled = false;
+        }
+
+       
+        if (animator != null)
+        {
+            animator.SetTrigger("Death");
+        }
+
+        
+        Destroy(gameObject, 3.0f);
+    }
 }
