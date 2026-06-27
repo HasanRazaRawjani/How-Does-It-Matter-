@@ -1,0 +1,123 @@
+{"kind":"deck","id":"pr/4642fm","name":"Deck"}
+{"kind":"layout","layoutId":"cdbce38d-0246-4da8-b969-261545336fee","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"22fdcac3-36fb-42e7-8597-940fc9b127a4","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/o0m455","slide":1,"title":"Survival Through Knowledge","textShapes":4}
+{"kind":"textbox","id":"sh/6tovahoz","slide":1,"text":"Survival Through Knowledge","textPreview":"Survival Through Knowledge","textChars":26,"textLines":1,"bbox":[42,92,760,130]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":1,"text":"A Unity space survival game where facts help you stay alive.","textPreview":"A Unity space survival game where facts help you stay alive.","textChars":60,"textLines":1,"bbox":[46,242,620,80]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":1,"text":"Built for BlairHacks 2026","textPreview":"Built for BlairHacks 2026","textChars":25,"textLines":1,"bbox":[46,584,420,40]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":1,"bbox":[748,70,450,560]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":1,"text":"BlairHacks 2026 | Survival Through Knowledge | 1","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 1","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"image","id":"im/f6dcbulw","slide":1,"name":"","alt":"Main menu screen from the game","bbox":[778,108,390,240]}
+{"kind":"image","id":"im/4r65wjud","slide":1,"name":"","alt":"Loading screen from the game","bbox":[778,372,390,190]}
+{"kind":"notes","id":"nt/o0m455","slide":1,"text":""}
+{"kind":"slide","id":"sl/dyof0k","slide":2,"title":"The Problem","textShapes":9}
+{"kind":"textbox","id":"sh/bq1oryts","slide":2,"text":"The Problem","textPreview":"The Problem","textChars":11,"textLines":1,"bbox":[42,42,720,70]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":2,"text":"A lot of learning games feel like homework. A lot of action games do not teach much.","textPreview":"A lot of learning games feel like homework. A lot of action games do not teach much.","textChars":84,"textLines":1,"bbox":[46,130,760,76]}
+{"kind":"shape","id":"sh/twra5gbq","slide":2,"bbox":[46,245,350,260]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":2,"text":"Our idea","textPreview":"Our idea","textChars":8,"textLines":1,"bbox":[76,275,260,36]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":2,"text":"Make a game where learning is part of surviving, not a separate quiz page.","textPreview":"Make a game where learning is part of surviving, not a separate quiz page.","textChars":74,"textLines":1,"bbox":[76,336,270,120]}
+{"kind":"shape","id":"sh/4nap4r65","slide":2,"bbox":[465,245,350,260]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":2,"text":"Why it matters","textPreview":"Why it matters","textChars":14,"textLines":1,"bbox":[495,275,280,36]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":2,"text":"Players practice space facts while they are already focused and excited.","textPreview":"Players practice space facts while they are already focused and excited.","textChars":72,"textLines":1,"bbox":[495,336,270,120]}
+{"kind":"shape","id":"sh/bat47y1k","slide":2,"bbox":[884,245,350,260]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":2,"text":"Target users","textPreview":"Target users","textChars":12,"textLines":1,"bbox":[914,275,280,36]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":2,"text":"Students who like games, space, and fast challenges.","textPreview":"Students who like games, space, and fast challenges.","textChars":52,"textLines":1,"bbox":[914,336,270,120]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":2,"text":"BlairHacks 2026 | Survival Through Knowledge | 2","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 2","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"notes","id":"nt/dyof0k","slide":2,"text":""}
+{"kind":"slide","id":"sl/qze4kk","slide":3,"title":"How The Game Works","textShapes":14}
+{"kind":"textbox","id":"sh/epkzupwb","slide":3,"text":"How The Game Works","textPreview":"How The Game Works","textChars":18,"textLines":1,"bbox":[42,42,780,70]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":3,"bbox":[46,168,260,340]}
+{"kind":"textbox","id":"sh/wval87ed","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[70,196,70,60]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":3,"text":"Pick a planet","textPreview":"Pick a planet","textChars":13,"textLines":1,"bbox":[70,276,205,42]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":3,"text":"Start in the solar system and choose a planet level.","textPreview":"Start in the solar system and choose a planet level.","textChars":52,"textLines":1,"bbox":[70,340,205,110]}
+{"kind":"shape","id":"sh/psfil0rq","slide":3,"bbox":[346,168,260,340]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[370,196,70,60]}
+{"kind":"textbox","id":"sh/7u54zido","slide":3,"text":"Survive aliens","textPreview":"Survive aliens","textChars":14,"textLines":1,"bbox":[370,276,205,42]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":3,"text":"Aliens chase the player using pathfinding.","textPreview":"Aliens chase the player using pathfinding.","textChars":42,"textLines":1,"bbox":[370,340,205,110]}
+{"kind":"shape","id":"sh/onyd0z61","slide":3,"bbox":[646,168,260,340]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[670,196,70,60]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":3,"text":"Answer facts","textPreview":"Answer facts","textChars":12,"textLines":1,"bbox":[670,276,205,42]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":3,"text":"After 3 kills, the game pauses and asks a True or False planet fact.","textPreview":"After 3 kills, the game pauses and asks a True or False planet fact.","textChars":68,"textLines":1,"bbox":[670,340,205,110]}
+{"kind":"shape","id":"sh/ovahoza1","slide":3,"bbox":[946,168,260,340]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":3,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[970,196,70,60]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":3,"text":"Win with knowledge","textPreview":"Win with knowledge","textChars":18,"textLines":1,"bbox":[970,276,205,42]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":3,"text":"Correct answers add points. Wrong answers slow your progress.","textPreview":"Correct answers add points. Wrong answers slow your progress.","textChars":61,"textLines":1,"bbox":[970,340,205,110]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"BlairHacks 2026 | Survival Through Knowledge | 3","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 3","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"notes","id":"nt/qze4kk","slide":3,"text":""}
+{"kind":"slide","id":"sl/xt82zl","slide":4,"title":"What We Built","textShapes":10}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":4,"text":"What We Built","textPreview":"What We Built","textChars":13,"textLines":1,"bbox":[42,42,600,70]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,145,28,28]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"3D Unity scenes for the solar system and planet terrain levels.","textPreview":"3D Unity scenes for the solar system and planet terrain levels.","textChars":63,"textLines":1,"bbox":[88,145,511,44]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,223,28,28]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":4,"text":"Alien enemies with NavMesh movement, attacks, health, death animations, and sounds.","textPreview":"Alien enemies with NavMesh movement, attacks, health, death animations, and sounds.","textChars":83,"textLines":1,"bbox":[88,223,511,44]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,301,28,28]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":4,"text":"A local AI question system using Ollama to make planet True or False facts.","textPreview":"A local AI question system using Ollama to make planet True or False facts.","textChars":75,"textLines":1,"bbox":[88,301,511,44]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,379,28,28]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":"HUD screens for controls, win, lose, progress, and question moments.","textPreview":"HUD screens for controls, win, lose, progress, and question moments.","textChars":68,"textLines":1,"bbox":[88,379,511,44]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":4,"text":"BlairHacks 2026 | Survival Through Knowledge | 4","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 4","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"image","id":"im/nih4byhg","slide":4,"name":"","alt":"Controls screen","bbox":[700,116,460,250]}
+{"kind":"image","id":"im/yxobm58z","slide":4,"name":"","alt":"Win screen","bbox":[700,390,220,150]}
+{"kind":"image","id":"im/5o7qpg3e","slide":4,"name":"","alt":"Lose screen","bbox":[952,390,220,150]}
+{"kind":"notes","id":"nt/xt82zl","slide":4,"text":""}
+{"kind":"slide","id":"sl/qtbgkn","slide":5,"title":"Technical Work","textShapes":9}
+{"kind":"textbox","id":"sh/v6psfil0","slide":5,"text":"Technical Work","textPreview":"Technical Work","textChars":14,"textLines":1,"bbox":[42,42,640,70]}
+{"kind":"shape","id":"sh/knih4byh","slide":5,"bbox":[56,150,350,360]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":5,"text":"Gameplay code","textPreview":"Gameplay code","textChars":13,"textLines":1,"bbox":[86,184,250,36]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"text":"Player damage, alien attacks, death, win screens, kill tracking, and point tracking.","textPreview":"Player damage, alien attacks, death, win screens, kill tracking, and point tracking.","textChars":84,"textLines":1,"bbox":[86,246,265,130]}
+{"kind":"shape","id":"sh/vu9knih4","slide":5,"bbox":[465,150,350,360]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":5,"text":"AI questions","textPreview":"AI questions","textChars":12,"textLines":1,"bbox":[495,184,250,36]}
+{"kind":"textbox","id":"sh/d0z61032","slide":5,"text":"The game asks a local AI model for a true or false fact about the current planet.","textPreview":"The game asks a local AI model for a true or false fact about the current planet.","textChars":81,"textLines":1,"bbox":[495,246,265,130]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":5,"bbox":[874,150,350,360]}
+{"kind":"textbox","id":"sh/vixczed8","slide":5,"text":"World systems","textPreview":"World systems","textChars":13,"textLines":1,"bbox":[904,184,250,36]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":5,"text":"Planets move in orbit, enemies spawn from a dropship, and terrain levels use NavMesh data.","textPreview":"Planets move in orbit, enemies spawn from a dropship, and terrain levels use NavMesh data.","textChars":90,"textLines":1,"bbox":[904,246,265,130]}
+{"kind":"textbox","id":"sh/61032lsz","slide":5,"text":"Unity packages used include Input System, AI Navigation, URP, Post Processing, Shader Graph, and UI.","textPreview":"Unity packages used include Input System, AI Navigation, URP, Post Processing, Shader Graph, and UI.","textChars":100,"textLines":1,"bbox":[80,560,1120,40]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":5,"text":"BlairHacks 2026 | Survival Through Knowledge | 5","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 5","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"notes","id":"nt/qtbgkn","slide":5,"text":""}
+{"kind":"slide","id":"sl/2wy1kv","slide":6,"title":"Why It Is Creative","textShapes":12}
+{"kind":"textbox","id":"sh/at47y1kr","slide":6,"text":"Why It Is Creative","textPreview":"Why It Is Creative","textChars":18,"textLines":1,"bbox":[42,42,720,70]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":6,"text":"The learning happens inside the action loop.","textPreview":"The learning happens inside the action loop.","textChars":44,"textLines":1,"bbox":[46,128,700,46]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[56,220,28,28]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":6,"text":"The player is not just reading facts. They need facts to win.","textPreview":"The player is not just reading facts. They need facts to win.","textChars":61,"textLines":1,"bbox":[90,220,606,44]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[56,290,28,28]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":6,"text":"Every planet can create different facts, so the quiz does not feel the same every time.","textPreview":"Every planet can create different facts, so the quiz does not feel the same every time.","textChars":87,"textLines":1,"bbox":[90,290,606,44]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[56,360,28,28]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":6,"text":"The space theme matches BlairHacks' constellation theme.","textPreview":"The space theme matches BlairHacks' constellation theme.","textChars":56,"textLines":1,"bbox":[90,360,606,44]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[56,430,28,28]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":6,"text":"It mixes shooting, survival, space, and education in one project.","textPreview":"It mixes shooting, survival, space, and education in one project.","textChars":65,"textLines":1,"bbox":[90,430,606,44]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"text":"Rubric focus: impact, creativity, technical execution, demo quality, and future potential.","textPreview":"Rubric focus: impact, creativity, technical execution, demo quality, and future potential.","textChars":90,"textLines":1,"bbox":[780,558,390,54]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":6,"text":"BlairHacks 2026 | Survival Through Knowledge | 6","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 6","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"image","id":"im/ytsvu9kn","slide":6,"name":"","alt":"BlairHacks judging rubric","bbox":[780,146,390,390]}
+{"kind":"notes","id":"nt/2wy1kv","slide":6,"text":""}
+{"kind":"slide","id":"sl/jntrxc","slide":7,"title":"Demo Plan For Judges","textShapes":16}
+{"kind":"textbox","id":"sh/byhgn29g","slide":7,"text":"Demo Plan For Judges","textPreview":"Demo Plan For Judges","textChars":20,"textLines":1,"bbox":[42,42,720,70]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":7,"text":"We will screenshare the game after this slide deck.","textPreview":"We will screenshare the game after this slide deck.","textChars":51,"textLines":1,"bbox":[46,122,780,42]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[66,220,28,28]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":7,"text":"Show the main menu and controls.","textPreview":"Show the main menu and controls.","textChars":32,"textLines":1,"bbox":[100,220,726,44]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[66,282,28,28]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":7,"text":"Open the solar system and pick a planet.","textPreview":"Open the solar system and pick a planet.","textChars":40,"textLines":1,"bbox":[100,282,726,44]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[66,344,28,28]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":7,"text":"Fight aliens until the question appears.","textPreview":"Fight aliens until the question appears.","textChars":40,"textLines":1,"bbox":[100,344,726,44]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[66,406,28,28]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":7,"text":"Answer the question and show the point bar.","textPreview":"Answer the question and show the point bar.","textChars":43,"textLines":1,"bbox":[100,406,726,44]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[66,468,28,28]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":7,"text":"Show the win or lose screen if we reach it.","textPreview":"Show the win or lose screen if we reach it.","textChars":43,"textLines":1,"bbox":[100,468,726,44]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":7,"bbox":[905,195,245,270]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":7,"text":"5 min","textPreview":"5 min","textChars":5,"textLines":1,"bbox":[940,240,180,80]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":7,"text":"short presentation","textPreview":"short presentation","textChars":18,"textLines":1,"bbox":[928,334,200,46]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"text":"then live demo","textPreview":"then live demo","textChars":14,"textLines":1,"bbox":[928,388,200,46]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":7,"text":"BlairHacks 2026 | Survival Through Knowledge | 7","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 7","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"notes","id":"nt/jntrxc","slide":7,"text":""}
+{"kind":"slide","id":"sl/vjjmqp","slide":8,"title":"Future Plans","textShapes":9}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":8,"text":"Future Plans","textPreview":"Future Plans","textChars":12,"textLines":1,"bbox":[42,42,640,70]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":8,"bbox":[60,152,340,340]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":8,"text":"More learning","textPreview":"More learning","textChars":13,"textLines":1,"bbox":[90,188,250,36]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":8,"text":"Add harder question levels, explanations after answers, and more space topics.","textPreview":"Add harder question levels, explanations after answers, and more space topics.","textChars":78,"textLines":1,"bbox":[90,250,260,118]}
+{"kind":"shape","id":"sh/at47y1kr","slide":8,"bbox":[470,152,340,340]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":8,"text":"More gameplay","textPreview":"More gameplay","textChars":13,"textLines":1,"bbox":[500,188,250,36]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":8,"text":"Add more enemy types, weapons, planets, and missions.","textPreview":"Add more enemy types, weapons, planets, and missions.","textChars":53,"textLines":1,"bbox":[500,250,260,118]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":8,"bbox":[880,152,340,340]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":8,"text":"More polish","textPreview":"More polish","textChars":11,"textLines":1,"bbox":[910,188,250,36]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":8,"text":"Improve UI, balance the points, and make the local AI fallback better.","textPreview":"Improve UI, balance the points, and make the local AI fallback better.","textChars":70,"textLines":1,"bbox":[910,250,260,118]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":8,"text":"Our goal: make players feel like knowing the answer actually helps them survive.","textPreview":"Our goal: make players feel like knowing the answer actually helps them survive.","textChars":80,"textLines":1,"bbox":[98,568,1060,46]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":8,"text":"BlairHacks 2026 | Survival Through Knowledge | 8","textPreview":"BlairHacks 2026 | Survival Through Knowledge | 8","textChars":48,"textLines":1,"bbox":[42,662,650,24]}
+{"kind":"notes","id":"nt/vjjmqp","slide":8,"text":""}

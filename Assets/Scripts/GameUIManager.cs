@@ -36,17 +36,12 @@ public class GameUIManager : MonoBehaviour
     public GameObject DeathScene;
 
     [Header("Endgame Audio Settings")]
-    [Tooltip("Drag your VictorySound AudioSource game object here")]
     public AudioSource victoryAudioSource;
-    [Tooltip("Drag your LoseSound AudioSource game object here")]
     public AudioSource loseAudioSource;
 
     [Header("Main HUD Panels to Hide")]
-    [Tooltip("Drag the Kill_Slider parent object here")]
     public GameObject killSliderPanel;
-    [Tooltip("Drag the ProgressSlider parent object here")]
     public GameObject progressSliderPanel;
-    [Tooltip("Drag the Crosshair game object here")]
     public GameObject crosshairObject;
 
     [Header("AI Question Screen UI")]
@@ -56,7 +51,6 @@ public class GameUIManager : MonoBehaviour
     public Slider progressSlider;
 
     [Header("Player Settings")]
-    [Tooltip("Drag your Player object or FPS Controller script component here")]
     public MonoBehaviour fpsControllerScript;
 
     [Header("Lerp Settings")]
@@ -179,10 +173,42 @@ public class GameUIManager : MonoBehaviour
             if (webRequest.result == UnityWebRequest.Result.Success)
             {
                 OllamaResponseData outerContent = JsonUtility.FromJson<OllamaResponseData>(webRequest.downloadHandler.text);
-                TriviaQuestion generatedQuestion = JsonUtility.FromJson<TriviaQuestion>(outerContent.response);
+                string cleanResponse = outerContent.response.Trim();
 
-                QuestionText.text = generatedQuestion.question;
-                currentCorrectAnswer = generatedQuestion.answer;
+                if (cleanResponse.StartsWith("```"))
+                {
+                    int firstLineEnd = cleanResponse.IndexOf('\n');
+                    int lastBackticks = cleanResponse.LastIndexOf("```");
+                    if (firstLineEnd != -1 && lastBackticks > firstLineEnd)
+                    {
+                        cleanResponse = cleanResponse.Substring(firstLineEnd + 1, lastBackticks - firstLineEnd - 1).Trim();
+                    }
+                }
+
+                try
+                {
+                    TriviaQuestion generatedQuestion = JsonUtility.FromJson<TriviaQuestion>(cleanResponse);
+                    QuestionText.text = generatedQuestion.question;
+
+                    string lowerResponse = cleanResponse.ToLower();
+                    if (lowerResponse.Contains("\"answer\": false") || lowerResponse.Contains("\"answer\": \"false\""))
+                    {
+                        currentCorrectAnswer = false;
+                    }
+                    else if (lowerResponse.Contains("\"answer\": true") || lowerResponse.Contains("\"answer\": \"true\""))
+                    {
+                        currentCorrectAnswer = true;
+                    }
+                    else
+                    {
+                        currentCorrectAnswer = generatedQuestion.answer;
+                    }
+                }
+                catch
+                {
+                    QuestionText.text = "Error reading the AI data layout.";
+                    currentCorrectAnswer = true;
+                }
             }
             else
             {
