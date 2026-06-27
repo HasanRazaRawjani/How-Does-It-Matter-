@@ -33,6 +33,11 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+    }
+
     public void SpawnBlood()
     {
         

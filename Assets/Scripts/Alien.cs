@@ -16,13 +16,14 @@ public class Alien : MonoBehaviour
 
     private Animator animator;
     private bool isBiting = false;
-    private bool isDead = false; 
+    private bool isDead = false;
+    private GameUIManager gameUIManager;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         navMeshAgent = GetComponent<NavMeshAgent>();
-
+        gameUIManager = player.transform.Find("GameUI").GetComponent<GameUIManager>();
         if (player != null)
         {
             playerManager = player.GetComponent<PlayerManager>();
@@ -103,29 +104,32 @@ public class Alien : MonoBehaviour
 
     public void Die()
     {
+        if (isDead) return;
+
         isDead = true;
 
-       
+        if (playerManager != null)
+        {
+            gameUIManager.AddKill();
+        }
+
         if (navMeshAgent != null)
         {
             navMeshAgent.isStopped = true;
             navMeshAgent.enabled = false;
         }
 
-        
         Collider alienCollider = GetComponent<Collider>();
         if (alienCollider != null)
         {
             alienCollider.enabled = false;
         }
 
-       
         if (animator != null)
         {
             animator.SetTrigger("Death");
         }
 
-        
         Destroy(gameObject, 3.0f);
     }
 }
